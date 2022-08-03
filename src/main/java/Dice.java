@@ -39,6 +39,13 @@ public class Dice {
 
     }
 
+    public int TossSumMin() {
+        return numberOfDice;
+    }
 
-
+    public int TossSumMax() {
+        return numberOfDice * numberOfSides;
+    }
 }
+
+
